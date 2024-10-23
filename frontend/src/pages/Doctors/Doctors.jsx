@@ -24,7 +24,7 @@ const Doctors = () => {
     data: doctors,
     loading,
     error,
-  } = useFetchData(`${BASE_URL}/doctors?query=${debounceQuery}`);
+  } = useFetchData(`${BASE_URL}/api/v1/doctors?query=${debounceQuery}`);
 
   console.log("doctors :",doctors);
   console.log("errors :",error);
