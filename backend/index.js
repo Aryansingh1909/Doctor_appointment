@@ -13,7 +13,7 @@ const app=express();
 const port=process.env.PORT || 8000;   //Defining port
 
 const corsOptions={
-    origin:"http://localhost:5173",
+    origin:"https://doctor-appointment-three-tau.vercel.app/",
 }
 app.get('/',(req,res)=>{                   //router test api
     res.send("API IS WORKING");
