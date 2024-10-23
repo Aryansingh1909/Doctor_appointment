@@ -24,7 +24,7 @@ const Doctors = () => {
     data: doctors,
     loading,
     error,
-  } = useFetchData(`https://doctor-appointment-a7z1.onrender.com/api/v1/doctors?query=${debounceQuery}`);
+  } = useFetchData(`${BASE_URL}/doctors?query=${debounceQuery}`);
 
   console.log("doctors :",doctors);
   console.log("errors :",error);
