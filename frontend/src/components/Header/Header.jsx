@@ -66,7 +66,7 @@ const toggleMenu=()=>menuRef.current.classList.toggle('show__menu')
 
           {/* =========menu========== */}
           <div className="navigation" ref={menuRef} onClick={toggleMenu}>
-            <ul className="menu flex items-center gap-[2.8rem]">
+            <ul className="menu flex items-center gap-[2rem]">
               {navLinks.map((link,index)=>(
                 <li key={index}>
                 <NavLink to={link.path} 
