@@ -13,14 +13,14 @@ const navLinks=[
     path:'/doctors',
     display:'Find a Doctor'
   },
-  {
-    path:'medicines',
-    display:'Pharmacy'
-  },
-  {
-    path:'/records',
-    display:'Health Records'
-  },
+  // {
+  //   path:'medicines',
+  //   display:'Pharmacy'
+  // },
+  // {
+  //   path:'/records',
+  //   display:'Health Records'
+  // },
   {
     path:'/services',
     display:'Services'
